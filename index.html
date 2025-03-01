@@ -1,0 +1,104 @@
+<pre><span class="fmt19">\documentclass</span>[a4paper,12pt]{<span class="fmt56"><span class="fmt56">article</span></span>} </pre>
+<pre><span class="fmt19">\usepackage</span>{<span class="fmt56"><span class="fmt56">graphicx</span></span>} </pre>
+<pre><span class="fmt19">\usepackage</span>{<span class="fmt56"><span class="fmt56">cite</span></span>} </pre>
+<pre><span class="fmt19">\usepackage</span>{<span class="fmt56"><span class="fmt56">hyperref</span></span>} </pre>
+<pre><span class="fmt19">\usepackage</span>{<span class="fmt56"><span class="fmt56">amsmath</span></span>} </pre>
+<pre><span class="fmt19">\usepackage</span>{<span class="fmt56"><span class="fmt56">amssymb</span></span>} </pre>
+<pre> </pre>
+<pre><span class="fmt19">\title</span>{Edge and Fog Computing: Concepts, Applications, and Challenges} </pre>
+<pre><span class="fmt19">\author</span>{Dilyara Daroglu <span class="fmt19">\\</span> Wissenschaftliche Arbeitstechniken und Präsentationen <span class="fmt19">\\</span> Paris Lodron University of Salzburg } </pre>
+<pre><span class="fmt19">\date</span>{13.02.2025} </pre>
+<pre> </pre>
+<pre><span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt50">document</span></span><span class="fmt20">}</span> </pre>
+<pre>	 </pre>
+<pre>	<span class="fmt19">\maketitle</span> </pre>
+<pre>	 </pre>
+<pre>	<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt50">abstract</span></span><span class="fmt20">}</span> </pre>
+<pre>		As the number of IoT devices and real-time applications grows, traditional cloud computing is struggling to meet modern demands. Edge and Fog <span class="fmt41">Computing</span> have emerged as solutions to <span class="fmt19">\textbf</span>{reduce latency, improve bandwidth efficiency, and enhance real-time processing capabilities}. This paper provides an overview of these two paradigms, their <span class="fmt19">\textbf</span>{applications}, and the <span class="fmt19">\textbf</span>{challenges} they present. Additionally, we explore <span class="fmt19">\textbf</span>{future developments} that could shape the next generation of distributed computing. </pre>
+<pre>	<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt50">abstract</span></span><span class="fmt20">}</span> </pre>
+<pre>	 </pre>
+<pre>	<span class="fmt20">\section</span>{<span class="fmt58">Introduction</span>} </pre>
+<pre>	With billions of smart devices generating vast amounts of data daily, <span class="fmt19">\textbf</span>{efficient data processing is more important than ever}. While cloud computing remains a vital part of modern <span class="fmt41">computing</span>, its limitations—such as <span class="fmt19">\textbf</span>{high latency, bandwidth constraints, and reliance on internet connectivity}—have led to the adoption of <span class="fmt19">\textbf</span>{Edge and Fog Computing} <span class="fmt19">\cite</span>{<span class="fmt54">weber2021edge</span>}.  </pre>
+<pre>	 </pre>
+<pre>	These <span class="fmt19">\textbf</span>{decentralized computing models} bring processing closer to the devices where data is generated, allowing for <span class="fmt19">\textbf</span>{faster responses, reduced reliance on cloud storage, and improved security}. These technologies are particularly valuable in applications that require <span class="fmt19">\textbf</span>{immediate decision-making}, such as autonomous vehicles, industrial automation, and healthcare monitoring <span class="fmt19">\cite</span>{<span class="fmt54">ibm2022edge</span>}. </pre>
+<pre>	 </pre>
+<pre>	<span class="fmt20">\section</span>{<span class="fmt58">Edge</span><span class="fmt58"> </span><span class="fmt58">Computing</span>} </pre>
+<pre>	<span class="fmt20">\subsection</span>{<span class="fmt58">Definition</span>} </pre>
+<pre>	Edge Computing <span class="fmt19">\textbf</span>{brings computation and data storage closer to the source of data generation}, reducing the need for constant cloud communication. By processing data on or near IoT devices, Edge Computing significantly lowers <span class="fmt19">\textbf</span>{latency and network congestion} <span class="fmt19">\cite</span>{<span class="fmt54">shi2016edge</span>}. </pre>
+<pre>	 </pre>
+<pre>	<span class="fmt20">\subsection</span>{<span class="fmt58">Applications</span>} </pre>
+<pre>	Edge Computing is widely used across various industries: </pre>
+<pre>	<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt50">itemize</span></span><span class="fmt20">}</span> </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{Autonomous Vehicles:} Self-driving cars <span class="fmt19">\textbf</span>{process sensor data in real-time}, ensuring instant decision-making without delays <span class="fmt19">\cite</span>{<span class="fmt54">bonomi2012fog</span>}. </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{Smart Cities:} Traffic monitoring systems adjust signals <span class="fmt19">\textbf</span>{based on real-time congestion data}, reducing traffic jams. </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{Healthcare:} Wearable medical devices analyze <span class="fmt19">\textbf</span>{heart rate, oxygen levels, and other vitals}, issuing immediate alerts for critical conditions <span class="fmt19">\cite</span>{<span class="fmt54">cisco2015fog</span>}. </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{Retail:} AI-powered <span class="fmt19">\textbf</span>{smart shelves} and self-checkout systems use Edge Computing to track inventory and customer behavior efficiently. </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{Industrial Automation:} Edge devices monitor machinery performance, <span class="fmt19">\textbf</span>{preventing failures} and reducing <span class="fmt19">\textbf</span>{downtime in manufacturing plants}. </pre>
+<pre>	<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt50">itemize</span></span><span class="fmt20">}</span> </pre>
+<pre>	 </pre>
+<pre>	<span class="fmt20">\subsection</span>{<span class="fmt58">Challenges</span><span class="fmt58"> </span><span class="fmt58">of</span><span class="fmt58"> </span><span class="fmt58">Edge</span><span class="fmt58"> </span><span class="fmt58">Computing</span>} </pre>
+<pre>	Despite its advantages, Edge Computing presents several challenges: </pre>
+<pre>	 </pre>
+<pre>	<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt50">itemize</span></span><span class="fmt20">}</span> </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{Limited Processing Power and Storage:} Many edge devices <span class="fmt19">\textbf</span>{lack the capability to perform complex computations}, making them dependent on fog or cloud resources <span class="fmt19">\cite</span>{<span class="fmt54">weber2021edge</span>}. </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{High Deployment and Maintenance Costs:} Setting up <span class="fmt19">\textbf</span>{reliable edge infrastructure} requires significant <span class="fmt19">\textbf</span>{hardware and security investments}. </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{Scalability Issues:} Deploying thousands of edge nodes across a system is challenging, <span class="fmt19">\textbf</span>{especially when updates and security patches are needed}. </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{<span class="fmt41">Security</span> and Privacy Concerns:} Edge devices <span class="fmt19">\textbf</span>{are more vulnerable to cyberattacks} due <span class="fmt40">to</span> their distributed nature and direct exposure to networks. </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{Interoperability Problems:} Different manufacturers produce <span class="fmt19">\textbf</span>{incompatible devices}, making it difficult to integrate a unified system. </pre>
+<pre>	<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt50">itemize</span></span><span class="fmt20">}</span> </pre>
+<pre>	 </pre>
+<pre>	<span class="fmt20">\section</span>{<span class="fmt58">Fog</span><span class="fmt58"> </span><span class="fmt58">Computing</span>} </pre>
+<pre>	<span class="fmt20">\subsection</span>{<span class="fmt58">Definition</span>} </pre>
+<pre>	Fog Computing acts as an <span class="fmt19">\textbf</span>{intermediate layer between Edge <span class="fmt41">Computing</span> and cloud <span class="fmt40">computing</span>}, allowing for more <span class="fmt19">\textbf</span>{distributed, large-scale data processing} <span class="fmt19">\cite</span>{<span class="fmt54">bonomi2012fog</span>}. It is particularly useful when <span class="fmt19">\textbf</span>{<span class="fmt41">processing</span> power at the edge is insufficient}, but real-time insights are still required. </pre>
+<pre>	 </pre>
+<pre>	<span class="fmt20">\subsection</span>{<span class="fmt58">Applications</span>} </pre>
+<pre>	Fog Computing is widely used in: </pre>
+<pre>	<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt50">itemize</span></span><span class="fmt20">}</span> </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{Industrial IoT:} Factories use fog nodes to monitor machine health, <span class="fmt19">\textbf</span>{detecting issues before breakdowns occur}. </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{5G Networks:} Fog Computing <span class="fmt19">\textbf</span>{enhances network performance} by reducing congestion and improving <span class="fmt19">\textbf</span>{data routing}. </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{Smart Energy Grids:} Power <span class="fmt40">grids</span> use fog nodes to <span class="fmt19">\textbf</span>{balance <span class="fmt41">energy</span> distribution}, integrating renewable sources efficiently <span class="fmt19">\cite</span>{<span class="fmt54">cisco2015fog</span>}. </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{Disaster Response:} Emergency services use fog systems to analyze <span class="fmt19">\textbf</span>{real-time sensor data} in disaster zones, improving response times. </pre>
+<pre>	<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt50">itemize</span></span><span class="fmt20">}</span> </pre>
+<pre>	 </pre>
+<pre>	<span class="fmt20">\subsection</span>{<span class="fmt58">Challenges</span><span class="fmt58"> </span><span class="fmt58">of</span><span class="fmt58"> </span><span class="fmt58">Fog</span><span class="fmt58"> </span><span class="fmt58">Computing</span>} </pre>
+<pre>	While Fog Computing <span class="fmt19">\textbf</span>{reduces cloud dependency} and <span class="fmt19">\textbf</span>{enhances large-scale data processing}, it introduces its own set of challenges: </pre>
+<pre>	 </pre>
+<pre>	<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt50">itemize</span></span><span class="fmt20">}</span> </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{Complex System Architecture:} Fog nodes require <span class="fmt19">\textbf</span>{careful integration} between cloud services, edge devices, and network infrastructure <span class="fmt19">\cite</span>{<span class="fmt54">weber2021edge</span>}. </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{High Deployment and Maintenance Costs:} Deploying <span class="fmt19">\textbf</span>{regional fog nodes} adds <span class="fmt19">\textbf</span>{additional hardware and operational expenses}. </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{Latency Variability:} Unlike Edge Computing, <span class="fmt19">\textbf</span>{fog nodes may not always be close to the data source}, causing <span class="fmt19">\textbf</span>{inconsistent processing speeds}. </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{Energy Consumption:} Fog computing consumes more power than edge <span class="fmt41">computing</span>, <span class="fmt19">\textbf</span>{raising concerns about long-term sustainability}. </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{Lack of Standardization:} Fog infrastructure lacks <span class="fmt19">\textbf</span>{universal standards}, leading to <span class="fmt19">\textbf</span>{compatibility issues between systems}. </pre>
+<pre>	<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt50">itemize</span></span><span class="fmt20">}</span> </pre>
+<pre>	 </pre>
+<pre>	<span class="fmt20">\section</span>{<span class="fmt58">Comparison</span><span class="fmt58"> </span><span class="fmt58">of</span><span class="fmt58"> </span><span class="fmt58">Edge</span><span class="fmt58"> </span><span class="fmt58">and</span><span class="fmt58"> </span><span class="fmt58">Fog</span><span class="fmt58"> </span><span class="fmt58">Computing</span>} </pre>
+<pre>	<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt50">table</span></span><span class="fmt20">}</span>[h] </pre>
+<pre>		<span class="fmt19">\centering</span> </pre>
+<pre>		<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt50">tabular</span></span><span class="fmt20">}</span>{|l|l|l|} </pre>
+<pre>			<span class="fmt19">\hline</span> </pre>
+<pre>			<span class="fmt19">\textbf</span>{Feature} <span class="fmt23">&amp;</span> <span class="fmt19">\textbf</span>{Edge Computing} <span class="fmt23">&amp;</span> <span class="fmt19">\textbf</span>{Fog <span class="fmt40">Computing</span>} <span class="fmt19">\\</span> </pre>
+<pre>			<span class="fmt19">\hline</span> </pre>
+<pre>			Processing Location <span class="fmt23">&amp;</span> At the device level <span class="fmt23">&amp;</span> Between the cloud and edge <span class="fmt19">\\</span> </pre>
+<pre>			Latency <span class="fmt23">&amp;</span> Very Low <span class="fmt23">&amp;</span> <span class="fmt40">Low</span> to Medium <span class="fmt19">\\</span> </pre>
+<pre>			Scalability <span class="fmt23">&amp;</span> Difficult for large networks <span class="fmt23">&amp;</span> More scalable due to distributed nodes <span class="fmt19">\\</span> </pre>
+<pre>			Energy Consumption <span class="fmt23">&amp;</span> Lower <span class="fmt23">&amp;</span> Higher <span class="fmt19">\\</span> </pre>
+<pre>			<span class="fmt19">\hline</span> </pre>
+<pre>		<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt50">tabular</span></span><span class="fmt20">}</span> </pre>
+<pre>		<span class="fmt19">\caption</span>{Comparison of Edge and Fog Computing <span class="fmt19">\cite</span>{<span class="fmt54">shi2016edge</span>}.} </pre>
+<pre>	<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt50">table</span></span><span class="fmt20">}</span> </pre>
+<pre>	 </pre>
+<pre>	<span class="fmt20">\section</span>{<span class="fmt58">Future</span><span class="fmt58"> </span><span class="fmt58">Trends</span>} </pre>
+<pre>	Edge and Fog Computing are expected to evolve, enabling: </pre>
+<pre>	<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt50">itemize</span></span><span class="fmt20">}</span> </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{AI-Enhanced Edge <span class="fmt41">Computing</span>:} More powerful edge devices will allow for <span class="fmt19">\textbf</span>{real-time AI-driven insights} <span class="fmt19">\cite</span>{<span class="fmt54">chiang2017fog</span>}. </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{6G and Beyond:} Next-generation networks will rely heavily on <span class="fmt19">\textbf</span>{fog computing to optimize bandwidth}. </pre>
+<pre>		<span class="fmt19">\item</span> <span class="fmt19">\textbf</span>{Space Exploration Applications:} Edge and Fog Computing could <span class="fmt19">\textbf</span>{reduce reliance on Earth-based data processing} for future space missions. </pre>
+<pre>	<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt50">itemize</span></span><span class="fmt20">}</span> </pre>
+<pre>	 </pre>
+<pre>	<span class="fmt20">\section</span>{<span class="fmt58">Conclusion</span>} </pre>
+<pre>	Edge and Fog Computing <span class="fmt19">\textbf</span>{are transforming how data is processed} in the modern world. By <span class="fmt19">\textbf</span>{bringing computation closer to the data source}, these paradigms <span class="fmt19">\textbf</span>{improve efficiency, reduce response times, and minimize dependence on cloud storage}. </pre>
+<pre>	 </pre>
+<pre>	<span class="fmt19">\bibliographystyle</span>{IEEEtran} </pre>
+<pre>	<span class="fmt19">\bibliography</span>{references} </pre>
+<pre>	 </pre>
+<pre><span class="fmt20">\end{</span><span class="fmt20"><span class="fmt50">document</span></span><span class="fmt20">}</span> </pre></body></html>

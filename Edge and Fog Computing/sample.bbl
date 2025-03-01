@@ -1,0 +1,43 @@
+\begin{thebibliography}{}
+
+\bibitem[Ahammad, 2023]{cite-key}
+Ahammad, I. (2023).
+\newblock Fog computing complete review: Concepts, trends, architectures,
+  technologies, simulators, security issues, applications, and open research
+  fields.
+\newblock {\em SN Computer Science}, 4(6):765.
+
+\bibitem[Corp., 2023]{TechAhead2023}
+Corp., T. (2023).
+\newblock Fog computing architecture illustrating data flow and processing
+  layers.
+\newblock [Fig. 2].
+
+\bibitem[Files, nd]{WebsiteFiles}
+Files, W. (n.d.).
+\newblock Edge computing architecture.
+\newblock [Fig. 1].
+
+\bibitem[Gedeon et~al., 2019]{8877785}
+Gedeon, J., Brandherm, F., Egert, R., Grube, T., and Mühlhäuser, M. (2019).
+\newblock What the fog? edge computing revisited: Promises, applications and
+  future challenges.
+\newblock {\em IEEE Access}, 7:152847--152878.
+
+\bibitem[Medium, nd]{MediumFog}
+Medium (n.d.).
+\newblock Fog computing vs edge computing comparison.
+\newblock [Fig. 3].
+
+\bibitem[ResearchGate, 2020]{ResearchGate2020}
+ResearchGate (2020).
+\newblock Latency comparison under different values of edge server capability.
+\newblock [Fig. 4].
+
+\bibitem[Vo et~al., 2022]{Vo2022EdgeFA}
+Vo, T., Dave, P., Bajpai, G., and Kashef, R. (2022).
+\newblock Edge, fog, and cloud computing : An overview on challenges and
+  applications.
+\newblock {\em ArXiv}, abs/2211.01863.
+
+\end{thebibliography}

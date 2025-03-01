@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{INTRODUCTION}{3}{0}{1}
+\beamer@sectionintoc {2}{DEFINITIONS}{4}{0}{2}
+\beamer@sectionintoc {3}{CHALLENGES}{15}{0}{3}
+\beamer@sectionintoc {4}{APPLICATIONS}{20}{0}{4}
+\beamer@sectionintoc {5}{REFERENCES}{24}{0}{5}

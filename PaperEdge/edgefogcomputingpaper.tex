@@ -1,0 +1,104 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{Edge and Fog Computing: Concepts, Applications, and Challenges}
+\author{Dilyara Daroglu \\ Wissenschaftliche Arbeitstechniken und Präsentationen \\ Paris Lodron University of Salzburg }
+\date{13.02.2025}
+
+\begin{document}
+	
+	\maketitle
+	
+	\begin{abstract}
+		As the number of IoT devices and real-time applications grows, traditional cloud computing is struggling to meet modern demands. Edge and Fog Computing have emerged as solutions to \textbf{reduce latency, improve bandwidth efficiency, and enhance real-time processing capabilities}. This paper provides an overview of these two paradigms, their \textbf{applications}, and the \textbf{challenges} they present. Additionally, we explore \textbf{future developments} that could shape the next generation of distributed computing.
+	\end{abstract}
+	
+	\section{Introduction}
+	With billions of smart devices generating vast amounts of data daily, \textbf{efficient data processing is more important than ever}. While cloud computing remains a vital part of modern computing, its limitations—such as \textbf{high latency, bandwidth constraints, and reliance on internet connectivity}—have led to the adoption of \textbf{Edge and Fog Computing} \cite{weber2021edge}. 
+	
+	These \textbf{decentralized computing models} bring processing closer to the devices where data is generated, allowing for \textbf{faster responses, reduced reliance on cloud storage, and improved security}. These technologies are particularly valuable in applications that require \textbf{immediate decision-making}, such as autonomous vehicles, industrial automation, and healthcare monitoring \cite{ibm2022edge}.
+	
+	\section{Edge Computing}
+	\subsection{Definition}
+	Edge Computing \textbf{brings computation and data storage closer to the source of data generation}, reducing the need for constant cloud communication. By processing data on or near IoT devices, Edge Computing significantly lowers \textbf{latency and network congestion} \cite{shi2016edge}.
+	
+	\subsection{Applications}
+	Edge Computing is widely used across various industries:
+	\begin{itemize}
+		\item \textbf{Autonomous Vehicles:} Self-driving cars \textbf{process sensor data in real-time}, ensuring instant decision-making without delays \cite{bonomi2012fog}.
+		\item \textbf{Smart Cities:} Traffic monitoring systems adjust signals \textbf{based on real-time congestion data}, reducing traffic jams.
+		\item \textbf{Healthcare:} Wearable medical devices analyze \textbf{heart rate, oxygen levels, and other vitals}, issuing immediate alerts for critical conditions \cite{cisco2015fog}.
+		\item \textbf{Retail:} AI-powered \textbf{smart shelves} and self-checkout systems use Edge Computing to track inventory and customer behavior efficiently.
+		\item \textbf{Industrial Automation:} Edge devices monitor machinery performance, \textbf{preventing failures} and reducing \textbf{downtime in manufacturing plants}.
+	\end{itemize}
+	
+	\subsection{Challenges of Edge Computing}
+	Despite its advantages, Edge Computing presents several challenges:
+	
+	\begin{itemize}
+		\item \textbf{Limited Processing Power and Storage:} Many edge devices \textbf{lack the capability to perform complex computations}, making them dependent on fog or cloud resources \cite{weber2021edge}.
+		\item \textbf{High Deployment and Maintenance Costs:} Setting up \textbf{reliable edge infrastructure} requires significant \textbf{hardware and security investments}.
+		\item \textbf{Scalability Issues:} Deploying thousands of edge nodes across a system is challenging, \textbf{especially when updates and security patches are needed}.
+		\item \textbf{Security and Privacy Concerns:} Edge devices \textbf{are more vulnerable to cyberattacks} due to their distributed nature and direct exposure to networks.
+		\item \textbf{Interoperability Problems:} Different manufacturers produce \textbf{incompatible devices}, making it difficult to integrate a unified system.
+	\end{itemize}
+	
+	\section{Fog Computing}
+	\subsection{Definition}
+	Fog Computing acts as an \textbf{intermediate layer between Edge Computing and cloud computing}, allowing for more \textbf{distributed, large-scale data processing} \cite{bonomi2012fog}. It is particularly useful when \textbf{processing power at the edge is insufficient}, but real-time insights are still required.
+	
+	\subsection{Applications}
+	Fog Computing is widely used in:
+	\begin{itemize}
+		\item \textbf{Industrial IoT:} Factories use fog nodes to monitor machine health, \textbf{detecting issues before breakdowns occur}.
+		\item \textbf{5G Networks:} Fog Computing \textbf{enhances network performance} by reducing congestion and improving \textbf{data routing}.
+		\item \textbf{Smart Energy Grids:} Power grids use fog nodes to \textbf{balance energy distribution}, integrating renewable sources efficiently \cite{cisco2015fog}.
+		\item \textbf{Disaster Response:} Emergency services use fog systems to analyze \textbf{real-time sensor data} in disaster zones, improving response times.
+	\end{itemize}
+	
+	\subsection{Challenges of Fog Computing}
+	While Fog Computing \textbf{reduces cloud dependency} and \textbf{enhances large-scale data processing}, it introduces its own set of challenges:
+	
+	\begin{itemize}
+		\item \textbf{Complex System Architecture:} Fog nodes require \textbf{careful integration} between cloud services, edge devices, and network infrastructure \cite{weber2021edge}.
+		\item \textbf{High Deployment and Maintenance Costs:} Deploying \textbf{regional fog nodes} adds \textbf{additional hardware and operational expenses}.
+		\item \textbf{Latency Variability:} Unlike Edge Computing, \textbf{fog nodes may not always be close to the data source}, causing \textbf{inconsistent processing speeds}.
+		\item \textbf{Energy Consumption:} Fog computing consumes more power than edge computing, \textbf{raising concerns about long-term sustainability}.
+		\item \textbf{Lack of Standardization:} Fog infrastructure lacks \textbf{universal standards}, leading to \textbf{compatibility issues between systems}.
+	\end{itemize}
+	
+	\section{Comparison of Edge and Fog Computing}
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|l|l|l|}
+			\hline
+			\textbf{Feature} & \textbf{Edge Computing} & \textbf{Fog Computing} \\
+			\hline
+			Processing Location & At the device level & Between the cloud and edge \\
+			Latency & Very Low & Low to Medium \\
+			Scalability & Difficult for large networks & More scalable due to distributed nodes \\
+			Energy Consumption & Lower & Higher \\
+			\hline
+		\end{tabular}
+		\caption{Comparison of Edge and Fog Computing \cite{shi2016edge}.}
+	\end{table}
+	
+	\section{Future Trends}
+	Edge and Fog Computing are expected to evolve, enabling:
+	\begin{itemize}
+		\item \textbf{AI-Enhanced Edge Computing:} More powerful edge devices will allow for \textbf{real-time AI-driven insights} \cite{chiang2017fog}.
+		\item \textbf{6G and Beyond:} Next-generation networks will rely heavily on \textbf{fog computing to optimize bandwidth}.
+		\item \textbf{Space Exploration Applications:} Edge and Fog Computing could \textbf{reduce reliance on Earth-based data processing} for future space missions.
+	\end{itemize}
+	
+	\section{Conclusion}
+	Edge and Fog Computing \textbf{are transforming how data is processed} in the modern world. By \textbf{bringing computation closer to the data source}, these paradigms \textbf{improve efficiency, reduce response times, and minimize dependence on cloud storage}.
+	
+	\bibliographystyle{IEEEtran}
+	\bibliography{references}
+	
+\end{document}

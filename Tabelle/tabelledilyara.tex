@@ -1,0 +1,21 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[margin=2cm]{geometry} 
+\usepackage{graphicx}
+\usepackage{caption} 
+\usepackage{array}    
+
+\begin{document}
+	\centering
+	\section*{Assignment 1 - Dilyara Daroglu}
+	\begin{table}[h!]
+		\centering 
+		\caption{Cats}
+		\begin{tabular}{|c|c|}
+			\hline
+			\textbf{Image} & \textbf{Description} \\ \hline
+			\includegraphics[width=0.3\textwidth, angle=0]{Image1.jpg} & Image 1 ({\scriptsize scaled to 30\% width, no rotation}) \\ \hline
+			\includegraphics[width=0.5\textwidth, angle=45]{Image1.jpg} & Image 2 ({\scriptsize scaled to 50\% width, rotated 45 degrees}) \\ \hline
+			\includegraphics[height=3cm, angle=90]{Image1.jpg} & Image 1 ({\scriptsize height fixed to 3 cm, rotated 90 degrees}) \\ \hline
+		\end{tabular}
+	\end{table}
+\end{document}
