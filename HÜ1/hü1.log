@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.26)  28 FEB 2025 15:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.26)  1 MAR 2025 03:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**tabelledilyara.tex
-(./tabelledilyara.tex
+**hü1.tex
+(./hü1.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -102,8 +102,8 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count267
 \l__pdf_internal_box=\box53
 )
-(./tabelledilyara.aux)
-\openout1 = `tabelledilyara.aux'.
+(./hü1.aux)
+\openout1 = `hü1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
@@ -205,7 +205,7 @@ Overfull \hbox (10.55476pt too wide) in paragraph at lines 13--20
 [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Image
-1.jpg>] (./tabelledilyara.aux)
+1.jpg>] (./hü1.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -213,16 +213,16 @@ L3 programming layer <2024-02-20>
  ) 
 Here is how much of TeX's memory you used:
  3273 strings out of 474116
- 56833 string characters out of 5743682
+ 56725 string characters out of 5743682
  1928187 words of memory out of 5000000
  25651 multiletter control sequences out of 15000+600000
  561718 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,14n,65p,246b,346s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,14n,65p,237b,346s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on tabelledilyara.pdf (1 page, 47273 bytes).
+Output written on hü1.pdf (1 page, 47273 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  13 compressed objects within 1 object stream

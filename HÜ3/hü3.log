@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.26)  28 FEB 2025 16:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.26)  1 MAR 2025 04:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**gnuplotdilyara.tex
-(./gnuplotdilyara.tex
+**hü3.tex
+(./hü3.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -127,8 +127,8 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count272
 \l__pdf_internal_box=\box53
 )
-(./gnuplotdilyara.aux)
-\openout1 = `gnuplotdilyara.aux'.
+(./hü3.aux)
+\openout1 = `hü3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
@@ -216,7 +216,7 @@ Package pdftex.def Info: graph4.png  used on input line 127.
  [5
 
  <./graph4.png>]
-(./gnuplotdilyara.aux)
+(./hü3.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -224,18 +224,18 @@ L3 programming layer <2024-02-20>
  ) 
 Here is how much of TeX's memory you used:
  5041 strings out of 474116
- 79896 string characters out of 5743682
+ 79788 string characters out of 5743682
  1975187 words of memory out of 5000000
  27399 multiletter control sequences out of 15000+600000
  562343 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,228b,1790s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,6n,65p,219b,1790s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
 sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on gnuplotdilyara.pdf (5 pages, 220786 bytes).
+Output written on hü3.pdf (5 pages, 220786 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
